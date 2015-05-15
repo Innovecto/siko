@@ -1,2 +1,0 @@
-# siko
-Sistem Kependudukan Online
