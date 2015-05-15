@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+.env
+
+composer.phar
+composer.lock
+npm-debug.log
+
+sftp-config*
+.DS_Store
+Thumbs.db
