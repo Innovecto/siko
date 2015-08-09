@@ -4,7 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class locations extends Model
+class Locations extends Model
 {
-    //
+    protected $fillable = [
+    	'name', 
+    	'zipcode', 
+    	'parent', 
+    	'level', 
+    	'leader'
+    ];
 }
