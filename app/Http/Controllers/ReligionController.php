@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Religions;
+use App\Http\Requests;
+use App\Models\Religions;
 use Request;
 
 class ReligionController extends Controller
@@ -39,7 +39,7 @@ class ReligionController extends Controller
      * @return Response
      */
     public function store(Requests\CreateReligionRequest $request)
-    {   
+    {
 
         Religions::create($request->all());
 
@@ -56,8 +56,6 @@ class ReligionController extends Controller
     {
         $religions = Religions::findOrFail($id);
 
-
-
         return view('religion.show', compact('religions'));
     }
 
@@ -70,8 +68,6 @@ class ReligionController extends Controller
     public function edit($id)
     {
         $religions = Religions::findOrFail($id);
-
-
 
         return view('religion.edit', compact('religions'));
     }
