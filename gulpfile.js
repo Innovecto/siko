@@ -15,49 +15,37 @@ elixir(function(mix) {
 //    mix.sass('app.scss');
 
     mix.styles([
-		'/resources/assets/components/css/components-n.css',
-		'/resources/assets/components/css/red.css',
-		'/resources/assets/components/css/style-responsive.css',
-		'/resources/assets/components/css/style-revolution-slider.css',
-		'/resources/assets/components/css/style.css',
-    ], 'public/css/component.css', './');
+        '/resources/assets/css/vendor/font-awesome.css',
+        '/resources/assets/css/vendor/bootstrap.css'
+    ], 'public/assets/css/vendor.min.css');
 
     mix.styles([
-    	'/resources/assets/plugins/fancybox/source/jquery.fancybox.css',
-    	'/resources/assets/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css',
-    	'/resources/assets/plugins/slider-revolution-slider/rs-plugin/css/settings.css',
-    ], 'public/css/plugin.css', './');
+    	'/resources/assets/css/plugin/jquery.fancybox.css',
+    	'/resources/assets/css/plugin/owl-carousel/owl.carousel.css',
+    ], 'public/assets/css/plugin.min.css');
 
     mix.styles([
-    	'/resources/assets/vendor/font-awesome/css/font-awesome.min.css',
-    	'/resources/assets/vendor/bootstrap/css/bootstrap.min.css',
-    ], 'public/css/vendor.css', './');
+        '/resources/assets/css/component/components-n.css',
+        '/resources/assets/css/component/red.css',
+        '/resources/assets/css/component/style-responsive.css',
+        '/resources/assets/css/component/style-revolution-slider.css',
+        '/resources/assets/css/component/style.css'
+    ], 'public/assets/css/site.min.css');
 
     mix.scripts([
-    	'/resources/assets/components/js/back-to-top.js',
-    	'/resources/assets/components/js/layout.js',
-    ], 'public/js/component.js', './');
+        '/resources/assets/js/vendor/jquery.min.js',
+        '/resources/assets/js/vendor/jquery-migrate.min.js',
+        '/resources/assets/js/vendor/bootstrap.js'
+    ], 'public/assets/js/vendor.min.js');
 
     mix.scripts([
-    	'/resources/assets/plugins/fancybox/source/jquery.fancybox.pack.js',
-    	'/resources/assets/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js',
-    ], 'public/js/plugin.js', './');
+    	'/resources/assets/js/plugin/jquery.fancybox.js',
+        '/resources/assets/js/plugin/owl.carousel.js'
+    ], 'public/assets/js/plugin.min.js');
 
     mix.scripts([
-    	'/resources/assets/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js',
-    ], 'public/js/revo1.js', './');
+        '/resources/assets/js/component/back-to-top.js',
+        '/resources/assets/js/component/layout.js'
+    ], 'public/assets/js/site.min.js');
 
-    mix.scripts([
-    	'/resources/assets/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js',
-    ], 'public/js/revo2.js', './');
-
-    mix.scripts([
-    	'/resources/assets/components/js/revo-slider-init.js',
-    ], 'public/js/revo3.js', './');
-
-    mix.scripts([
-    	'/resources/assets/vendor/jquery.min.js',
-    	'/resources/assets/vendor/jquery-migrate.min.js',
-    	'/resources/assets/vendor/bootstrap/js/bootstrap.min.js',
-    ], 'public/js/vendor.js', './');
 });

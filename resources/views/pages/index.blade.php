@@ -2,7 +2,7 @@
   
   @section('content')
 
-  @include('pages.slider')
+  {{-- @include('pages.slider') --}}
   
   <div class="main">
     <div class="container">
@@ -53,7 +53,7 @@
             <div class="owl-carousel owl-carousel3">
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img1.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img1.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img1.jpg" class="fancybox-button" title="Project Name #1" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -64,7 +64,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img2.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img2.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img2.jpg" class="fancybox-button" title="Project Name #2" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -75,7 +75,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -86,7 +86,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -97,7 +97,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img5.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img5.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img5.jpg" class="fancybox-button" title="Project Name #5" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -108,7 +108,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img6.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img6.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img6.jpg" class="fancybox-button" title="Project Name #6" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -119,7 +119,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -130,7 +130,7 @@
               </div>
               <div class="recent-work-item">
                 <em>
-                  <img src="img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
+                  <img src="assets/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
                   <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a href="img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
@@ -158,7 +158,7 @@
               <div class="tab-pane row fade in active" id="tab-1">
                 <div class="col-md-3 col-sm-3">
                   <a href="assets/temp/photos/img7.jpg" class="fancybox-button" title="Image Title" data-rel="fancybox-button">
-                    <img class="img-responsive" src="img/photos/img7.jpg" alt="">
+                    <img class="img-responsive" src="assets/img/photos/img7.jpg" alt="">
                   </a>
                 </div>
                 <div class="col-md-9 col-sm-9">
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-md-3 col-sm-3">
                   <a href="assets/temp/photos/img10.jpg" class="fancybox-button" title="Image Title" data-rel="fancybox-button">
-                    <img class="img-responsive" src="img/photos/img10.jpg" alt="">
+                    <img class="img-responsive" src="assets/img/photos/img10.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -194,7 +194,7 @@
                 <div class="active item">
                   <blockquote><p>Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
                   <div class="carousel-info">
-                    <img class="pull-left" src="img/people/img1-small.jpg" alt="">
+                    <img class="pull-left" src="assets/img/people/img1-small.jpg" alt="">
                     <div class="pull-left">
                       <span class="testimonials-name">Lina Mars</span>
                       <span class="testimonials-post">Commercial Director</span>
@@ -204,7 +204,7 @@
                 <div class="item">
                   <blockquote><p>Raw denim you Mustache cliche tempor, williamsburg carles vegan helvetica probably haven't heard of them jean shorts austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p></blockquote>
                   <div class="carousel-info">
-                    <img class="pull-left" src="img/people/img5-small.jpg" alt="">
+                    <img class="pull-left" src="assets/img/people/img5-small.jpg" alt="">
                     <div class="pull-left">
                       <span class="testimonials-name">Kate Ford</span>
                       <span class="testimonials-post">Commercial Director</span>
@@ -214,7 +214,7 @@
                 <div class="item">
                   <blockquote><p>Reprehenderit butcher stache cliche tempor, williamsburg carles vegan helvetica.retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid Aliquip placeat salvia cillum iphone.</p></blockquote>
                   <div class="carousel-info">
-                    <img class="pull-left" src="img/people/img2-small.jpg" alt="">
+                    <img class="pull-left" src="assets/img/people/img2-small.jpg" alt="">
                     <div class="pull-left">
                       <span class="testimonials-name">Jake Witson</span>
                       <span class="testimonials-post">Commercial Director</span>
@@ -265,50 +265,50 @@
             <div class="owl-carousel owl-carousel6-brands">
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_1_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_1.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_1_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_1.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_2_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_2.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_2_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_2.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_3_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_3.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_3_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_3.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_4_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_4.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_4_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_4.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_5_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_5.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_5_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_5.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_6_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_6.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_6_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_6.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_7_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_7.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_7_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_7.png" class="color-img img-responsive" alt="">
                 </a>
               </div>
               <div class="client-item">
                 <a href="#">
-                  <img src="img/clients/client_8_gray.png" class="img-responsive" alt="">
-                  <img src="img/clients/client_8.png" class="color-img img-responsive" alt="">
+                  <img src="assets/img/clients/client_8_gray.png" class="img-responsive" alt="">
+                  <img src="assets/img/clients/client_8.png" class="color-img img-responsive" alt="">
                 </a>
               </div>                  
             </div>

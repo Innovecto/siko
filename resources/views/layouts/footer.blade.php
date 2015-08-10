@@ -11,49 +11,49 @@
               <h2>People on My Area</h2>
               <ul class="list-unstyled">
                 <li>
-                  {!! Html::image('img/people/img5-small.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img5-small.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img1.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img1.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/people/img4-large.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img4-large.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img6.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img6.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img3.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img3.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/people/img2-large.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img2-large.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img2.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img2.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/people/img5-small.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img5-small.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img1.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img1.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img6.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img6.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img3.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img3.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/people/img2-large.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img2-large.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img2.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img2.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/people/img5-small.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/people/img5-small.jpg', "photostream") !!}
                 </li>
                 <li>
-                  {!! Html::image('img/works/img1.jpg', "photostream") !!}
+                  {!! Html::image('assets/img/works/img1.jpg', "photostream") !!}
                 </li>
               </ul>                    
             </div>
