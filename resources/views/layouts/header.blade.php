@@ -18,7 +18,7 @@
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
-            Pages                 
+            Pages
           </a>
           <ul class="dropdown-menu">
             <li><a href="page-about.html">About Us</a></li>
@@ -34,20 +34,20 @@
             <li><a href="page-reg-page.html">Signup Page</a></li>
             <li><a href="page-careers.html">Careers</a></li>
             <li><a href="page-site-map.html">Site Map</a></li>
-            <li><a href="page-contacts.html">Contact</a></li>                
+            <li><a href="page-contacts.html">Contact</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
-            Features 
-            
+            Features
+
           </a>
-            
+
           <ul class="dropdown-menu">
             <li><a href="feature-typography.html">Typography</a></li>
             <li><a href="feature-buttons.html">Buttons</a></li>
             <li><a href="feature-forms.html">Forms</a></li>
-            
+
             <li class="dropdown-submenu">
               <a href="index.html">Multi level <i class="fa fa-angle-right"></i></a>
               <ul class="dropdown-menu" role="menu">
@@ -55,7 +55,7 @@
                 <li><a href="index.html">Second Level Link</a></li>
                 <li class="dropdown-submenu">
                   <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
-                    Second Level Link 
+                    Second Level Link
                     <i class="fa fa-angle-right"></i>
                   </a>
                   <ul class="dropdown-menu">
@@ -81,7 +81,7 @@
           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Event</a>
           <ul class="dropdown-menu">
             <li>
-              {!! Html::link('event.index', "Event Page") !!}
+              {!! Html::link('event/index', "Event Page") !!}
             </li>
             <li>
               {!! Html::link('event.show', "Event") !!}
@@ -139,7 +139,7 @@
               </div>
             </li>
           </ul>
-        </li>   
+        </li>
         <li>
           {!! Html::link('#', 'Member Module', array('class' => 'dropdown-toggle', 'data-toggle' => 'dropdown', 'data-target' => '#')) !!}
           <ul class="dropdown-menu">
@@ -192,7 +192,7 @@
                 </span>
               </div>
             </form>
-          </div> 
+          </div>
         </li>
         <!-- END TOP SEARCH -->
       </ul>

@@ -38,3 +38,7 @@ Route::resource('location', 'LocationController');
 //Family Members
 
 //Family Relations
+
+Route::get('event/index', function () {
+	return view('event/index');
+});
