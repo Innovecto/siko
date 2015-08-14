@@ -9,17 +9,16 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
-*/
+ */
 
 Route::get('/', function () {
-    return view('pages/index');
+	return view('pages/index');
 });
 
 //Members
 Route::get('member', 'MemberController@index');
 Route::get('member/profile/{id}', 'MemberController@show');
 Route::get('member/create', 'MemberController@create');
-
 
 //Religions
 //Route::get('religions', 'ReligionController@index');
@@ -30,18 +29,12 @@ Route::get('member/create', 'MemberController@create');
 Route::resource('religions', 'ReligionController');
 
 //Locations
-Route::get('location', 'LocationController@index');
-Route::get('location/create', 'LocationController@create');
+Route::resource('location', 'LocationController');
 
 //Families
-Route::get('family', 'FamilyController@index');
-Route::get('family/create', 'FamilyController@create');
-
+//Route::get('family', 'FamilyController@index');
+//Route::get('family/create', 'FamilyController@create');
 
 //Family Members
 
-
 //Family Relations
-
-
-

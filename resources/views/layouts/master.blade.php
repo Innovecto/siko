@@ -27,6 +27,7 @@
 		{!! Html::style('/assets/css/vendor.min.css') !!}
 		{!! Html::style('/assets/css/plugin.min.css') !!}
 		{!! Html::style('/assets/css/site.min.css') !!}
+		@yield('style')
 		</head>
 	<body class="corporate">
 		@include('layouts.topbar')
@@ -36,14 +37,15 @@
 		{!! Html::script('/assets/js/vendor.min.js') !!}
 		{!! Html::script('/assets/js/plugin.min.js') !!}
 		{!! Html::script('/assets/js/site.min.js') !!}
+		@yield('scripts')
 		<script type="text/javascript">
         jQuery(document).ready(function() {
             scrolltotop.controlHTML = '<img src="{{ asset('assets/img/up.png') }}" style="width:40px; height:40px" />';
-            Layout.init();    
+            Layout.init();
             Layout.initOWL();
             Layout.initTwitter();
             //Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
-            //Layout.initNavScrolling(); 
+            //Layout.initNavScrolling();
         });
     </script>
 	</body>

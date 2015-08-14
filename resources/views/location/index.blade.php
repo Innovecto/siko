@@ -41,52 +41,30 @@
 								</tr>
 								</thead>
 								<tbody>
-								<tr>
-									<td>
-										 1
-									</td>
-									<td>
-										 Table cell
-									</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td>
-										 <a href="member/create">
-										 	<i class="fa fa-plus"> </i>
-										 </a>
-										 <a href="member/edit">
-										 	<i class="fa fa-pencil"></i>
-										 </a>
-										 <a href="member/delete">
-										 	<i class="fa fa-trash"></i>
-										 </a>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										 2
-									</td>
-									<td>
-										 Table cell
-									</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td>
-										 <a href="member/create">
-										 	<i class="fa fa-plus"> </i>
-										 </a>
-										 <a href="member/edit">
-										 	<i class="fa fa-pencil"></i>
-										 </a>
-										 <a href="member/delete">
-										 	<i class="fa fa-trash"></i>
-										 </a>
-									</td>
-								</tr>
+									@foreach ($locations as $value)
+
+										<tr>
+											<td>ID: {{ $value->id }}</td>
+											<td>{{ $value->name }}</td>
+											<td>{{ $value->zipcode }}</td>
+											<td>{{ $value->parent }}</td>
+											<td>{{ $value->level }}</td>
+											<td>{{ $value->leader }}</td>
+											<td>
+												 <a href="member/create">
+												 	<i class="fa fa-plus"> </i>
+												 </a>
+												 <a href="member/edit">
+												 	<i class="fa fa-pencil"></i>
+												 </a>
+												 <a href="member/delete">
+												 	<i class="fa fa-trash"></i>
+												 </a>
+											</td>
+										</tr>
+
+									@endforeach
+
 								<tr>
 									<td>
 										 3

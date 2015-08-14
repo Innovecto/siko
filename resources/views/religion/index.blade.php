@@ -57,9 +57,9 @@
 												 <a href="religions/{{ $value->id }}/edit">
 												 	<i class="fa fa-pencil"></i>
 												 </a>
-												 <a href="religions/delete">
-												 	<i class="fa fa-trash"></i>
-												 </a>
+												 {!! Form::open(['method' => 'DELETE', 'action' => ['ReligionController@destroy', $value->id]]) !!}
+													<button type="submit" value="{{ $value->id }}" class="btn btn-danger btn-mini">Delete</button>
+												 {!! Form::close() !!}
 											</td>
 										</tr>
 									@endforeach
