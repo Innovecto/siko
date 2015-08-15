@@ -12,40 +12,38 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-//    mix.sass('app.scss');
-
-    mix.styles([
-        '/resources/assets/css/vendor/font-awesome.css',
-        '/resources/assets/css/vendor/bootstrap.css'
-    ], 'public/assets/css/vendor.min.css');
-
-    mix.styles([
-    	'/resources/assets/css/plugin/jquery.fancybox.css',
-    	'/resources/assets/css/plugin/owl-carousel/owl.carousel.css',
-    ], 'public/assets/css/plugin.min.css');
-
-    mix.styles([
-        '/resources/assets/css/component/components-n.css',
-        '/resources/assets/css/component/red.css',
-        '/resources/assets/css/component/style-responsive.css',
-        '/resources/assets/css/component/style-revolution-slider.css',
-        '/resources/assets/css/component/style.css'
-    ], 'public/assets/css/site.min.css');
-
     mix.scripts([
-        '/resources/assets/js/vendor/jquery.min.js',
-        '/resources/assets/js/vendor/jquery-migrate.min.js',
-        '/resources/assets/js/vendor/bootstrap.js'
-    ], 'public/assets/js/vendor.min.js');
+            'vendor/jquery.min.js',
+            'vendor/jquery-migrate.min.js',
+            'vendor/jquery-ui.min.js',
+            'vendor/bootstrap.js'
+        ], 'public/assets/js/vendor.min.js')
 
-    mix.scripts([
-    	'/resources/assets/js/plugin/jquery.fancybox.js',
-        '/resources/assets/js/plugin/owl.carousel.js'
-    ], 'public/assets/js/plugin.min.js');
+        .scripts([
+            'plugin/bootstrap-hover-dropdown.js',
+            'plugin/jquery.slimscroll.js',
+            'plugin/jquery.blockui.min.js',
+            'plugin/jquery.cookie.min.js',
+            'plugin/jquery.uniform.js',
+            'plugin/jquery.sparkline.min.js',
+            'plugin/jquery.vmap.js',
+            'plugin/maps/*.js',
+            'plugin/morris.js',
+            'plugin/raphael.min.js'
+        ], 'public/assets/js/plugin.min.js')
 
-    mix.scripts([
-        '/resources/assets/js/component/back-to-top.js',
-        '/resources/assets/js/component/layout.js'
-    ], 'public/assets/js/site.min.js');
+        .scripts([
+            'metronic.js',
+            'layout.js',
+            'component/quick-sidebar.js',
+            'component/index.js',
+            'component/tasks.js',
+            'siko.js'
+        ], 'public/assets/js/site.min.js');
+
+    mix.sass('vendor.scss', 'public/assets/css/vendor.min.css')
+        .sass('plugin.scss', 'public/assets/css/plugin.min.css')
+        .sass('layout.scss', 'public/assets/css/site.min.css');
+
 
 });
